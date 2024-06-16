@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015", "es2017"], // Add es2015 or later
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+    "include": ["src/**/*.ts", "typings/**/*.d.ts"],
+    "files": [
+        "calculator.ts"
+    ]
+}
